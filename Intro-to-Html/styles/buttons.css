@@ -1,0 +1,167 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+
+.subscribe-button:active {
+    opacity: 0.5;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(47, 125, 241);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    color: rgb(47, 125, 241);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+    background-color: rgb(47, 125, 241);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.Tweet-button {
+    background-color: rgb(12, 198, 255);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.Tweet-button:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.uber:hover {
+    opacity: 0.8;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    height: 30px;
+    width: 150px;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.amazon:hover {
+    background-color: rgb(184, 155, 15);
+}
+
+.boosone {
+
+    background-color: rgb(121, 92, 179);
+    border-style: none;
+    height: 36px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.boosone:hover {
+    background-color: rgb(101, 77, 150);
+}
+
+.boostwo {
+    background-color: white;
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    width: 100px;
+    font-weight: bold;
+    color: rgb(108, 117, 125);
+    height: 36px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.boostwo:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linke1 {
+    background-color: rgb(10, 102, 194);
+    height: 36px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 220px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.linke1:hover {
+    background-color: rgb(9, 82, 156);
+}
+
+.linke2 {
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    height: 36px;
+    border-style: solid;
+    border-radius: 18px;
+    width: 70px;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+
+.linke2:hover {
+    background-color: rgba(10, 102, 194, 0.15);
+    border-width: 2px;
+}
