@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box-div">
+        <img class="img-x" src="/thumbnails/cat-imgae.jpg">
+        <p class="user">Oliver</p>
+        <p class="friend">2 mutual friends</p>
+        <button class="btn-add">Add Friend</button>
+    </div>
+    <div class="box-div">
+        <img class="img-x" src="/thumbnails/dog-image.jpg">
+        <p class="user">Mimi</p>
+        <p class="friend">3 mutual friends</p>
+        <button class="btn-add">Add Friend</button>
+    </div>
+    <div class="box-div">
+        <img class="img-x" src="/thumbnails/dog2-image.jpg">
+        <p class="user">Rex</p>
+        <p class="friend">5 mutual friends</p>
+        <button class="btn-add">Add Friend</button>
+    </div>
+</body>
+</html>
+
+<style>
+    div{
+        width: 200px;
+        height: 310px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.324);
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .img-x{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: right;
+        margin-bottom: 5px;
+    }
+    p,button{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+
+    .user{
+        font-weight: bold;
+        margin-bottom: 5px;
+
+    }
+    .friend{
+        color: rgb(144, 144, 144);
+        margin-bottom: 5px;
+    }
+
+    .btn-add{
+        height: 36px;
+        width: 105px;
+        color: white;
+        background-color: rgb(49, 159, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
