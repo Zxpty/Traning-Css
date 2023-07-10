@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="div-img">
+            <img class="img-profile" src="/thumbnails/dog-image.jpg">
+        </div>
+        <div class="info-profile">
+            <p class="name">Oliver</p>
+            <p class="topyc">the cat</p>
+            <p class="thing">Popular</p>
+        </div>
+        <div class="div-button"><button>Follow</button></div>
+    </div>
+</body>
+</html>
+
+<style>
+    .name{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .topyc,.thing{
+        color: rgb(105, 105, 105);
+        font-size: 8px;
+    }
+    .info-profile{
+        margin-right: 50px;
+    }
+    p,div{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .img-profile{
+        width: 30px;
+        height: 30px;
+        display: block;
+        border-radius: 25px;
+    }
+    .box,.div-img,.info-profile,.div-button{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .box{
+        width: 200px;
+
+    }
+    .div-img{
+        margin-right: 5px;
+    }
+    button{
+        margin-top: 5px;
+        background-color: rgb(38, 143, 255);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        height: 20px;
+        width: 50px;
+        font-size: 9px;
+        font-weight: 500;
+    }
+</style>
