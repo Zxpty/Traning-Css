@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Practice</title>
+</head>
+
+<body>
+    <div class="box">
+        <div style="background-color: lightblue;">div 1 text</div>
+        <div style="background-color: lightpink;">div 2 <p>text</p>
+        </div>
+    </div>
+
+    <div class="box">
+        <div style="
+            background-color: lightblue;
+            width: 100px;">div 1 text</div>
+        <div style="
+            background-color: lightpink;
+            flex: 1;
+            ">flex:1</div>
+    </div>
+
+    <div class="box">
+        <div style="
+            background-color: lightblue;
+            flex: 1;
+            ">flex:1</div>
+        <div style="
+            background-color: lightpink;
+            width: 100px;">100px</div>
+        <div style="
+        background-color: lightblue;
+        flex: 2;">flex:2</div>
+    </div>
+
+    <div class="box-1">
+        <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        <div style="
+            background-color: lightpink;
+            width: 100px;">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;">100px</div>
+    </div>
+
+    <div class="box-2">
+        <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        <div style="
+            background-color: lightpink;
+            width: 100px;">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;">100px</div>
+    </div>
+
+    <div class="box-3">
+        <div style="
+            background-color: lightblue;
+            width: 100px;
+            ">100px</div>
+        <div style="
+            background-color: lightpink;
+            width: 100px;">100px</div>
+        <div style="
+        background-color: lightblue;
+        width: 100px;">100px</div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .box-3 {
+        align-items: center;
+        justify-content: space-around;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .box-2 {
+        justify-content: space-between;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .box-1 {
+        justify-content: end;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+</style>
