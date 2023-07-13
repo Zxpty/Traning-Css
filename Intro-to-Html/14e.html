@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="profile-picture" src="/thumbnails/dog-image-1.jpg">
+            <div class="name">Oliver Cat</div>
+        </div>
+        <div class="right-section">
+            <button class="add-friend-button">Add Friend</button>
+            <button class="message-button">Message</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    * {
+        font-family: Roboto, Arial;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+
+    .message-button {
+        background-color: rgb(230, 230, 230);
+        border: none;
+        font-weight: bold;
+        /*font-size: 12px;*/
+        border-radius: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .add-friend-button {
+        background-color: rgb(24, 119, 242);
+        font-weight: bold;
+        border: none;
+        color: white;
+        /*font-size: 12px;*/
+        border-radius: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-right: 3px;
+    }
+
+    body {
+        height: 3000px;
+    }
+
+    .profile-picture {
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-right: 10px;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .header {
+        position: fixed;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        top: 0;
+        right: 0;
+        left: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>

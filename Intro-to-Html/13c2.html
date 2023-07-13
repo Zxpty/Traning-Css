@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box-all">
+        <div>
+            <p class="title"> ALL INBOXES</p>
+        </div>
+        <div class="content-info">
+            <div>
+                <img class="content-img" src="/thumbnails/cat-imgae.jpg">
+            </div>
+            <div>
+                <div class="content-info-text">
+                    <div>
+                        <p class="title-text">Chewy Promotions</p>
+                        <p class="subtitle-text">Biggest sales of the year!</p>
+                        <p class="desc-text">Hey there! We're writing to tell you about our...</p>
+                    </div>
+                    <div class="div-hour"><p class="hour-text">4:58</p></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-info">
+            <div>
+                <img class="content-img" src="/thumbnails/cat-imgae.jpg">
+            </div>
+            <div>
+                <div class="content-info-text">
+                    <div>
+                        <p class="title-text">Chewy Promotions</p>
+                        <p class="subtitle-text">Biggest sales of the year!</p>
+                        <p class="desc-text">Hey there! We're writing to tell you about our...</p>
+                    </div>
+                    <div class="div-hour"><p class="hour-text">4:58</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    p{
+        font-family: Roboto, Arial;
+    }
+    .div-hour{
+        margin-left: -10px;
+    }
+    .box-all{
+        padding-top: 0.5px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 125px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.289);
+    }
+    .hour-text{
+        font-size: 4px;
+        color: gray;
+    }
+    .desc-text{
+        color: gray;
+        font-size: 5px;
+    }
+    .subtitle-text{
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .title-text{
+        font-size: 6px;
+        font-weight: bold;
+    }
+    .content-info-text p{
+        padding-left: 3px;
+        margin: 0;
+    }
+    .content-info-text{
+        display: flex;
+    }
+    .content-info{
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    .content-img{
+        width: 16px;
+        height: 16px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .title{
+        font-size: 4px;
+        color: rgb(98, 98, 98);
+    }
+</style>

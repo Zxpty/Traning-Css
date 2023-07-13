@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="siderbar1">
+            <div><img class="picture" src="/thumbnails/dog-image.jpg" alt=""></div>
+            <div><img class="picture" src="/thumbnails/dog-image.jpg" alt=""></div>
+            <div><img class="picture" src="/thumbnails/dog-image.jpg" alt=""></div>
+        </div>
+        <div class="siderbar2">
+            <div class="header">
+                <div style="color: white;
+                font-size: 14px;">INFO</div>
+                <div style="color: gray;
+                font-size: 25px;">+</div>
+            </div>
+            <div class="channel" style="margin-right: 5px;"># new-videos</div>
+            <div class="channel" style="margin-right: 5px;"># updates</div>
+            <div class="channel" style="margin-right: 5px;"># faq</div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+<style>
+    .channel {
+        margin-top: 20px;
+        color: rgb(195, 195, 195);
+    }
+
+    body {
+        font-family: Roboto, Arial;
+        height: 3000px;
+    }
+
+    .siderbar2 {
+        width: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        top: 0;
+        left: 80px;
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(55, 55, 55);
+    }
+
+    .siderbar1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        align-items: center;
+        position: fixed;
+        width: 80px;
+        background-color: rgb(33, 33, 33);
+        padding-bottom: 50px;
+    }
+
+    .picture {
+        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        
+    }
+
+    .header {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+</style>
